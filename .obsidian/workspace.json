@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "43d3d8a47cc8b64e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8b6894a4199e53b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26f12b5bb9200c50",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e779828fb61b741d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e253456f7fb9b769",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fd3d528b41d216c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "4a1250f532a1b526",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "67ec047c1fda0642",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "171b3ecbf930834d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a56ceb90994b30ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d78f9da0e9547bd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "图片/文案.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "文案 的反向链接列表"
+            }
+          },
+          {
+            "id": "c51b1fd23f65d8e7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "5655e7edeeb09e83",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e12a4c334e8d244c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "bdb610411facc640",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "26f12b5bb9200c50",
+  "lastOpenFiles": [
+    "2026-03-21.md",
+    "未命名.base",
+    "未命名.canvas",
+    "图片/文案.md",
+    "XHS-Downloader/Volume/Temp",
+    "XHS-Downloader/Volume/Download/2026-02-26_22.27.52_A哥每天做Pair_P72面经：二级行研常见挑战分享_3.jpeg",
+    "XHS-Downloader/Volume/Download/2026-02-26_22.27.52_A哥每天做Pair_P72面经：二级行研常见挑战分享_2.jpeg",
+    "XHS-Downloader/Volume/Download/2026-02-26_22.27.52_A哥每天做Pair_P72面经：二级行研常见挑战分享_1.jpeg",
+    "XHS-Downloader/Volume/Temp/2026-02-26_22.27.52_A哥每天做Pair_P72面经：二级行研常见挑战分享_3.jpeg",
+    "XHS-Downloader/Volume/Temp/2026-02-26_22.27.52_A哥每天做Pair_P72面经：二级行研常见挑战分享_2.jpeg",
+    "XHS-Downloader/Volume/Temp/2026-02-26_22.27.52_A哥每天做Pair_P72面经：二级行研常见挑战分享_1.jpeg",
+    "图片/2026-03-05_23.19.57_A哥每天做Pair_会打字就会Vibe_Coding_EV公司？_3.jpeg",
+    "图片/2026-03-05_23.19.57_A哥每天做Pair_会打字就会Vibe_Coding_EV公司？_2.jpeg",
+    "图片/2026-03-05_23.19.57_A哥每天做Pair_会打字就会Vibe_Coding_EV公司？_1.jpeg",
+    "XHS-Downloader/Volume/Download/2026-03-05_23.19.57_A哥每天做Pair_会打字就会Vibe_Coding_EV公司？_1.jpeg",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/store.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/resolver.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/polling.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/message_queue.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/in_memory_task_store.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/helpers.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/context.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mcp/shared/experimental/tasks/__pycache__/capabilities.cpython-313.pyc",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mdit_py_plugins/texmath/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mdit_py_plugins/deflist/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/mdit_py_plugins/container/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/caio/src/threadpool/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/docstring_parser-0.17.0.dist-info/licenses/LICENSE.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/fastmcp/server/providers/openapi/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/fastmcp/utilities/openapi/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/fastmcp/contrib/mcp_mixin/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/fastmcp/contrib/component_manager/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/fastmcp/contrib/bulk_tool_caller/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/fastmcp/contrib/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/openapi_pydantic/v3/v3_0/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/openapi_pydantic/v3/v3_1/README.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/starlette-0.52.1.dist-info/licenses/LICENSE.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/aiofile-3.9.0.dist-info/LICENCE.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/uvicorn-0.42.0.dist-info/licenses/LICENSE.md",
+    "XHS-Downloader/venv/lib/python3.13/site-packages/idna-3.11.dist-info/licenses/LICENSE.md",
+    "XHS-Downloader/static/Release_Notes.md",
+    "XHS-Downloader/locale/README.md",
+    "XHS-Downloader/README_EN.md",
+    "XHS-Downloader/README.md",
+    "图片/整理稿.md"
+  ]
+}

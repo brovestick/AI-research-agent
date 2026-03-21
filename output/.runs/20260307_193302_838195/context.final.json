@@ -1,0 +1,123 @@
+{
+  "company": "斯瑞新材",
+  "code": "688102",
+  "latest_year": 2025,
+  "annual_report_paths": {
+    "2021": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2022-04-24_2021年年度报告.md"
+    ],
+    "2022": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2026-03-04_2022A经营分析.md",
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2026-03-04_财务数据_2022A.md"
+    ],
+    "2023": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2026-03-04_2023A经营分析.md",
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2026-03-04_财务数据_2023A.md"
+    ],
+    "2024": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2026-03-03_2024年年度报告.md"
+    ],
+    "2025": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input/annual_reports/2025-08-27：斯瑞新材：2025年半年度报告.pdf"
+    ]
+  },
+  "input_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/input",
+  "output_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/AI RESEARCH/research_agent/output",
+  "run_id": "20260307_193302_838195",
+  "industry_type": "growth",
+  "financials": {
+    "structured": {
+      "history": {
+        "2023": {
+          "revenue": 117951.3,
+          "gross_margin": 20.99,
+          "net_profit": 9834.11,
+          "eps": 0.18,
+          "operating_cashflow": 16856.83,
+          "revenue_yoy": 18.71,
+          "roe": 9.31,
+          "asset_liability_ratio": 36.42,
+          "pe": 75.11
+        },
+        "2024": {
+          "revenue": 132968.13,
+          "gross_margin": 23.09,
+          "net_profit": 11424.09,
+          "eps": 0.16,
+          "operating_cashflow": 16952.02,
+          "revenue_yoy": 12.73,
+          "roe": 10.26,
+          "asset_liability_ratio": 45.6,
+          "pe": 56.15
+        },
+        "2025": {
+          "revenue": 156449.3,
+          "gross_margin": 24.04,
+          "net_profit": 15427.45,
+          "eps": 0.21,
+          "operating_cashflow": 339.95,
+          "revenue_yoy": 21.74,
+          "roe": 8.11,
+          "asset_liability_ratio": 40.34,
+          "pe": 89.23
+        }
+      },
+      "revenue_latest": 156449.3,
+      "net_profit_latest": 15427.45,
+      "revenue_cagr_3y": 15.168960309488732,
+      "gross_margin_latest": 24.04,
+      "main_products": [
+        "高强高导铜合金材料",
+        "核心驱动是产品结构从铸锭材料",
+        "2024年产品",
+        "增量更多依赖推力室等新兴产品",
+        "中高压电接触材料",
+        "其他业务"
+      ]
+    },
+    "qualitative": {
+      "capacity_utilization_notes": [
+        "## 四、产能利用率",
+        "高强高导铜合金：2024年产量约11,014吨（+17.97%），IPO扶风募投项目产能分批释放，估计总有效产能1.2-1.5万吨区间，产能利用率约75-90%。推力室内壁2025年已建成年产150台套产能。【来源：2024年年度报告p46；2025年半年度报告p18】"
+      ],
+      "product_mix_notes": [
+        "| 毛利率（%） | 20.99% | 23.09% | 23.66%(H1) | ↑ | 连续四年提升，产品结构优化驱动 |",
+        "## 二、分产品收入与毛利分析",
+        "**高强高导铜合金材料及制品（占主营47.5%）**：2022-2024年收入4.42亿→5.34亿（+20.83%）→5.91亿（+10.63%）。毛利率从15.79%持续爬升至20.34%，趋势向好。核心驱动是产品结构从铸锭材料向端环、导条、推力室内壁等高附加值制品升级。2024年产品均价8.62万元/吨（+13.9%），销量微降但收入仍增长，典型的\"量换质\"。2025H1收入3.59亿、毛利率21.17%继续提升。但增速已从+20.83%放缓至+10.63%，传统轨交需求趋于平稳，增量更多依赖推力室等新兴产品。【来源：2023年年度报告p45-46；2024年年度报告p44-45；2025年半年度报告p176】",
+        "**其他业务（含光模块/推力室等，占主营17.4%）**：2022-2024年收入1.36亿→1.74亿（+27.88%）→2.16亿（+24.25%），连续两年约25%增速。毛利率2023年跃升至32.39%后2024年回落至27.64%（-4.75pct），推测与新品类初期放量尚未形成规模效应有关。2025H1收入1.09亿、毛利率27.24%。这是**第二增长曲线核心载体**，包含液体火箭推力室内壁（商业航天风口，高壁垒近独家供应）和光模块芯片基座/壳体（AI算力风口，800G/1.6T，高技术），属于高壁垒、高技术、中高毛利特征。【来源：2024年年度报告p45；2025年半年度报告p176】",
+        "**核心信号**：传统业务稳定增长（10-20%区间），无减速信号。加速信号来自三条新兴业务线：2025H1合计贡献主营收入约1.50亿（占比约20.7%），均踩中航天/AI/医疗国产替代风口。",
+        "2024年铜价年均水平较2023年上涨约10-15%，但公司综合毛利率反而从20.99%提升至23.09%，产品结构优化完全覆盖铜价上涨冲击。",
+        "以2024年数据估算：营业成本10.23亿，直接材料约占70%即7.16亿，铜占材料约80%即5.73亿。最极端假设（铜价+10%且完全无法传导）下，成本增约0.57亿，毛利率从23.09%降至约18.8%（-4.3ppt）。但实际影响远小于此：闭口定价的铸锭类产品价格跟随铜价联动；敞口定价的制品类通过套保对冲。**综合估计，铜价每上涨10%，对综合毛利率实际影响约1.5-2.5个百分点。**",
+        "**产品结构优化驱动的毛利提升**"
+      ],
+      "second_growth_curve_notes": [
+        "**其他业务（含光模块/推力室等，占主营17.4%）**：2022-2024年收入1.36亿→1.74亿（+27.88%）→2.16亿（+24.25%），连续两年约25%增速。毛利率2023年跃升至32.39%后2024年回落至27.64%（-4.75pct），推测与新品类初期放量尚未形成规模效应有关。2025H1收入1.09亿、毛利率27.24%。这是**第二增长曲线核心载体**，包含液体火箭推力室内壁（商业航天风口，高壁垒近独家供应）和光模块芯片基座/壳体（AI算力风口，800G/1.6T，高技术），属于高壁垒、高技术、中高毛利特征。【来源：2024年年度报告p45；2025年半年度报告p176】"
+      ],
+      "main_products": [
+        "高强高导铜合金材料",
+        "核心驱动是产品结构从铸锭材料",
+        "2024年产品",
+        "增量更多依赖推力室等新兴产品",
+        "中高压电接触材料",
+        "其他业务"
+      ]
+    },
+    "source": {
+      "structured": "财务表格（CSV/XLSX）",
+      "qualitative": "LLM(年报+联网)"
+    },
+    "revenue_latest": 156449.3,
+    "net_profit_latest": 15427.45,
+    "revenue_cagr_3y": 15.168960309488732,
+    "gross_margin_latest": 24.04,
+    "main_products": [
+      "高强高导铜合金材料",
+      "核心驱动是产品结构从铸锭材料",
+      "2024年产品",
+      "增量更多依赖推力室等新兴产品",
+      "中高压电接触材料",
+      "其他业务"
+    ]
+  },
+  "warnings": []
+}

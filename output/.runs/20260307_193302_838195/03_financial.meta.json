@@ -1,0 +1,55 @@
+{
+  "module": "03_financial",
+  "data_source": "财务表格（CSV/XLSX）",
+  "data_files": [
+    "斯瑞新材(688102.SH)-主营构成(按产品分类).xlsx",
+    "斯瑞新材(688102.SH)-利润表-普通报表.xlsx",
+    "斯瑞新材(688102.SH)-现金流量表-普通报表.xlsx",
+    "斯瑞新材(688102.SH)-财务摘要-普通报表.xlsx",
+    "斯瑞新材(688102.SH)-资产负债表-普通报表.xlsx"
+  ],
+  "prepared_structured": {
+    "history": {
+      "2023": {
+        "revenue": 117951.3,
+        "gross_margin": 20.99,
+        "net_profit": 9834.11,
+        "eps": 0.18,
+        "operating_cashflow": 16856.83,
+        "revenue_yoy": 18.71,
+        "roe": 9.31,
+        "asset_liability_ratio": 36.42,
+        "pe": 75.11
+      },
+      "2024": {
+        "revenue": 132968.13,
+        "gross_margin": 23.09,
+        "net_profit": 11424.09,
+        "eps": 0.16,
+        "operating_cashflow": 16952.02,
+        "revenue_yoy": 12.73,
+        "roe": 10.26,
+        "asset_liability_ratio": 45.6,
+        "pe": 56.15
+      },
+      "2025": {
+        "revenue": 156449.3,
+        "gross_margin": 24.04,
+        "net_profit": 15427.45,
+        "eps": 0.21,
+        "operating_cashflow": 339.95,
+        "revenue_yoy": 21.74,
+        "roe": 8.11,
+        "asset_liability_ratio": 40.34,
+        "pe": 89.23
+      }
+    },
+    "revenue_latest": 156449.3,
+    "net_profit_latest": 15427.45,
+    "revenue_cagr_3y": 15.168960309488732,
+    "gross_margin_latest": 24.04
+  },
+  "source_map": {
+    "structured": "财务表格（CSV/XLSX）"
+  }
+}

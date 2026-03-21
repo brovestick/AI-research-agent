@@ -1,0 +1,96 @@
+{
+  "company": "___′唤",
+  "code": "603507",
+  "latest_year": 2025,
+  "annual_report_paths": {
+    "2024": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/processed/annual_reports/振江股份2024年年度报告.md"
+    ],
+    "2025": [
+      "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/processed/annual_reports/振江股份2025年半年度报告.md"
+    ]
+  },
+  "company_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份",
+  "processed_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/processed",
+  "financial_data_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/financial_data",
+  "output_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output",
+  "run_id": "20260318_140437_271158",
+  "industry_type": "cyclical",
+  "financials": {
+    "structured": {
+      "history": {
+        "2023": {
+          "revenue": 384162.25,
+          "gross_margin": 20.29,
+          "net_profit": 18368.82,
+          "eps": 1.29,
+          "operating_cashflow": 38407.67,
+          "revenue_yoy": 32.28,
+          "roe": 7.62,
+          "asset_liability_ratio": 60.67,
+          "pe": 20.03
+        },
+        "2024": {
+          "revenue": 394583.65,
+          "gross_margin": 19.86,
+          "net_profit": 17819.64,
+          "eps": 0.97,
+          "operating_cashflow": 48969.62,
+          "revenue_yoy": 2.71,
+          "roe": 7.21,
+          "asset_liability_ratio": 63.65,
+          "pe": 24.86
+        },
+        "2025": {
+          "revenue": 449100.0,
+          "net_profit": 16198.5,
+          "eps": 0.88,
+          "operating_cashflow": -20037.33,
+          "gross_margin": 20.19,
+          "revenue_yoy": -1.15,
+          "roe": 6.1,
+          "asset_liability_ratio": 68.63,
+          "pe": 38.79
+        }
+      },
+      "revenue_latest": 449100.0,
+      "net_profit_latest": 16198.5,
+      "revenue_cagr_3y": 8.122028342818389,
+      "gross_margin_latest": 20.19,
+      "main_products": [
+        "振江股份的收入来源可以拆解为四条产品",
+        "在公司各业务",
+        "显示核心业务",
+        "光伏业务",
+        "铸造业务",
+        "振江股份的主要原材料"
+      ]
+    },
+    "source": {
+      "structured": "财务表格（CSV/XLSX）",
+      "qualitative": "LLM(年报+联网)"
+    },
+    "revenue_latest": 449100.0,
+    "net_profit_latest": 16198.5,
+    "revenue_cagr_3y": 8.122028342818389,
+    "gross_margin_latest": 20.19,
+    "main_products": [
+      "振江股份的收入来源可以拆解为四条产品",
+      "在公司各业务",
+      "显示核心业务",
+      "光伏业务",
+      "铸造业务",
+      "振江股份的主要原材料"
+    ]
+  },
+  "warnings": [],
+  "user_data": {
+    "price": 32.82,
+    "shares": 1.843,
+    "consensus": {
+      "2025E": 0.88,
+      "2026E": 1.73,
+      "2027E": 2.32
+    }
+  }
+}

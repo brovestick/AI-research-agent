@@ -1,0 +1,62 @@
+{
+  "run_id": "20260318_130454_818879",
+  "created_at": "2026-03-18 13:04:54",
+  "company": "___′唤",
+  "code": "603507",
+  "latest_year": 2025,
+  "current_module": "02",
+  "next_module": "02",
+  "status": "awaiting_answer",
+  "pending_review": null,
+  "approval_required": false,
+  "approved_checkpoints": [],
+  "context": {
+    "company": "___′唤",
+    "code": "603507",
+    "latest_year": 2025,
+    "annual_report_paths": {
+      "2024": [
+        "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/processed/annual_reports/振江股份2024年年度报告.md"
+      ],
+      "2025": [
+        "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/processed/annual_reports/振江股份2025年半年度报告.md"
+      ]
+    },
+    "company_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份",
+    "processed_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/processed",
+    "financial_data_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/companies/603507_振江股份/financial_data",
+    "output_dir": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output",
+    "run_id": "20260318_130454_818879",
+    "industry_type": "growth",
+    "financials": {
+      "structured": {},
+      "qualitative": {},
+      "source": {}
+    },
+    "warnings": [],
+    "user_data": {
+      "price": 32.82,
+      "shares": 1.843,
+      "consensus": {
+        "2025E": 0.88,
+        "2026E": 1.73,
+        "2027E": 2.32
+      }
+    }
+  },
+  "sections": {
+    "01": {
+      "title": "一、行业定性",
+      "path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/01_classify.md"
+    }
+  },
+  "artifacts": {
+    "01_prompt_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/01_classify.prompt.md",
+    "01_answer_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/01_classify.answer.md",
+    "01_meta_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/01_classify.meta.json",
+    "01_output_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/01_classify.md",
+    "02_prompt_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/02_business.prompt.md",
+    "02_answer_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/02_business.answer.md",
+    "02_meta_path": "/Users/jia/Library/Mobile Documents/com~apple~CloudDocs/research_agent/output/.runs/20260318_130454_818879/02_business.meta.json"
+  }
+}

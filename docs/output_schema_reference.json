@@ -1,0 +1,483 @@
+{
+  "_comment": "broker_rpt_extract.py 输出框架参考。顶层结构固定，structured 字段内容随 report_type 变化。",
+
+  "meta": {
+    "source_file": "2022-04-10民生证券_斯瑞新材_688102_新股研究报告.pdf",
+    "total_pages": 31,
+    "report_type": "first_coverage | deep_dive | earnings_review | event_review | unknown",
+    "publish_date": "2022-04-10",
+    "classify_confidence": "high | medium | low",
+    "classify_reason": "标题含新股研究报告，正文明确标注首次评级",
+    "timeliness_note": "本报告发布于 2022-04-10，其中投资评级、目标价、盈利预测等字段具有时效性，分析时请结合当前时间判断参考价值。投资逻辑、竞争格局、增长驱动等定性内容时效性相对较强。"
+  },
+
+  "first_page_summary": {
+    "_comment": "所有报告类型均有此字段，结构相同",
+    "publish_date": "2022-04-10",
+    "company_name": "斯瑞新材",
+    "ticker": "688102.SH",
+    "broker": "民生证券",
+    "analyst": "邱祖学",
+    "rating": "谨慎推荐",
+    "rating_change": "首次给予",
+    "target_price": null,
+    "current_price": 12.31,
+    "key_points": [
+      {
+        "point": "工信部单项冠军，细分领域领导者",
+        "content": "公司专注于高强高导铜合金等细分领域研发和制造，获工信部认证为有色金属新材料领域单项冠军，以轨道交通、电力电子、医疗影像等高端领域为目标市场。",
+        "has_growth_estimate": true,
+        "growth_estimate": "2018-2021年营业收入CAGR为30.77%，近三年归母净利润CAGR为43.11%"
+      },
+      {
+        "point": "基建驱动下游需求放量",
+        "content": "高强高导铜合金制成的牵引电机是轨道交通核心部件，铁路营业里程和电化率持续提升带动需求。",
+        "has_growth_estimate": false,
+        "growth_estimate": null
+      }
+    ],
+    "investment_advice_summary": "首次覆盖，给予谨慎推荐评级，公司募投项目全面开展，产能提升具有成长性",
+    "risk_highlights": ["原材料铜价波动风险", "募投项目产业化不达预期", "下游行业周期风险"]
+  },
+
+  "structured": {
+
+    "_variant_A_first_coverage": {
+      "_comment": "report_type = first_coverage 时的 structured 结构",
+      "company_name": "斯瑞新材",
+      "ticker": "688102.SH",
+      "rating": "谨慎推荐",
+      "target_price": null,
+      "current_price": 12.31,
+      "industry": "有色金属新材料",
+      "business_desc": "专注高强高导铜合金、中高压电接触材料等细分领域的研发制造，下游覆盖轨道交通、电力电子、医疗影像等高端领域。",
+      "investment_thesis": "工信部认证单项冠军，深耕铜合金细分领域20余年，受益基建扩张与新兴领域需求拉动，募投产能释放打开成长空间。",
+
+      "business_segments": [
+        {
+          "name": "高强高导铜合金材料及制品",
+          "revenue_share": "62%（2021年）",
+          "gross_margin": "约17.5%",
+          "key_products": ["铬锆铜铸锭", "端环和导条"],
+          "downstream": ["轨道交通牵引电机", "5G高端连接器"],
+          "segment_status": "公司最大营收来源，产销率接近100%，供需持续紧张。",
+          "industry_outlook": "受国家铁路网扩张规划驱动，至2025年铁路网目标17.5万公里；全球连接器市场2016-2020年CAGR达9%。"
+        }
+      ],
+
+      "capacity_by_product": [
+        {
+          "product": "铸锭等铬锆铜材料",
+          "current_capacity": "6375吨/年（2021年H1年化）",
+          "utilization_rate": "约87%",
+          "output_trend": "2018-2021H1产量从2826吨增至约4620吨，始终保持接近100%产销比。"
+        }
+      ],
+
+      "growth_drivers": [
+        {
+          "driver": "铁路网扩张与电气化提速带动牵引电机材料需求",
+          "logic": "高强高导铜合金制成的牵引电机端环、导条是轨道车辆核心部件。全国铁路营业里程持续扩张，电化率持续提升，中长期规划目标2025年达17.5万公里。",
+          "growth_estimates": [
+            {"metric": "全国铁路营业里程（2016-2020）", "value": "12.40万公里→14.63万公里"},
+            {"metric": "铁路电化率（2016-2020）", "value": "64.8%→72.8%"}
+          ]
+        }
+      ],
+
+      "competitive_advantages": [
+        {
+          "advantage": "多工艺路线制备技术壁垒（154项发明专利）",
+          "description": "公司同时掌握真空熔铸法、真空自耗电弧熔炼等五种制备技术，产线均自主设计，技术参数对标德国KME、博威合金。"
+        }
+      ],
+
+      "competitive_landscape": "全球范围内德国Wieland、KME等综合性供应商实力强劲但产品线宽泛；国内博威合金体量更大但高端占比低；公司在牵引电机端环等细分品类具备国内领先地位。",
+
+      "comparable_companies": [
+        {
+          "name": "博威合金",
+          "ticker": "601137.SH",
+          "pe_current_year": 18,
+          "pe_next_year": 14,
+          "note": "同为铜合金材料企业，但整体产品结构偏低端，高端铜合金产能仍在建设中。"
+        }
+      ],
+
+      "primary_growth_curve": {
+        "name": "高强高导铜合金材料及制品（铬锆铜）",
+        "description": "公司最大营收来源，2021年占总营收62%且持续提升，产能利用率持续高位，募投项目将新增14300吨产能。",
+        "growth_estimates": [
+          {"metric": "营收占比变化（2018-2021）", "value": "47%→62%"},
+          {"metric": "营收CAGR（2018-2021）", "value": "30.77%"}
+        ]
+      },
+
+      "second_growth_curve": {
+        "exists": true,
+        "name": "铜铁合金材料",
+        "description": "公司已储备多项铜铁合金制备技术，目前小批量供货，募投项目将建设5700吨产能，具有优异电磁屏蔽性能，瞄准新兴应用场景。",
+        "maturity": "early_stage",
+        "growth_estimates": []
+      },
+
+      "capital_allocation": {
+        "type": "IPO募投",
+        "total_amount": "3.62亿元",
+        "project_name": "年产4万吨铜铁和铬锆铜系列合金材料产业化项目（一期）",
+        "capacity_or_output_added": "新增产能约2万吨",
+        "breakdown": [
+          {
+            "category": "铬锆铜合金材料",
+            "amount_or_capacity": "14300吨",
+            "details": "铸锭+8000吨、上引杆棒线+2600吨、电力/轨道/铸件产品+1800吨、毛坯+1600吨、粉末+300吨"
+          },
+          {
+            "category": "铜铁合金材料",
+            "amount_or_capacity": "5700吨",
+            "details": "板带+3600吨、杆棒线+1800吨、粉末+300吨"
+          }
+        ],
+        "ramp_up_schedule": "建设周期24个月；第1年达正常产销量的26%，第2年达57%，第3年达100%。",
+        "strategic_rationale": "募投项目在现有核心技术基础上扩大铬锆铜合金产能，同时推动铜铁合金材料核心技术产业化，全面提升两大核心产品的产能、应用范围和市场规模。"
+      },
+
+      "earnings_forecast": {
+        "pricing_assumptions": [
+          {
+            "segment": "高强高导铜合金材料及制品",
+            "pricing_mechanism": "原材料+加工费定价；2022年原材料价格按市场增速假设，2023-2024年价格增速放缓",
+            "margin_sensitivity": "铜价直接传导至成本，毛利率受铜价波动影响显著但可通过锁价合同部分对冲"
+          }
+        ],
+        "segment_margins": [
+          {
+            "segment": "高强高导铜合金材料及制品",
+            "gross_margin_actual": "17.5%（2021A）",
+            "gross_margin_forecast": "2022-2024E约16%-15%，铜价上涨压缩毛利率"
+          }
+        ],
+        "revenue_growth_assumption": "随募投项目建成投产，产能产销量逐步提升驱动收入增长；2022-2024年营收增速25.7%/20.8%/18.2%逐年放缓。"
+      },
+
+      "valuation_methodology": {
+        "method": "PE估值",
+        "target_multiple": null,
+        "benchmark": "基于2022/2023/2024E EPS",
+        "rationale": "参考可比公司博威合金18/14倍PE，公司成长性更强，对应PE 56/43/36倍，首次覆盖给予谨慎推荐。"
+      },
+
+      "key_risks": [
+        {"risk": "原材料铜价波动", "description": "铜材是主要原材料，铜价持续上涨且套期保值执行不力将直接压缩毛利率。"},
+        {"risk": "募投项目产业化不达预期", "description": "铜铁合金属于新拓业务，若市场开拓不顺，新产能可能无法达到预期收益。"}
+      ],
+
+      "analyst": "邱祖学",
+      "publish_date": "2022-04-10",
+      "broker": "民生证券"
+    },
+
+    "_variant_B_earnings_review": {
+      "_comment": "report_type = earnings_review 时的 structured 结构",
+      "company_name": "复旦微电",
+      "ticker": "688385.SH",
+      "publish_date": "2025-08-29",
+      "broker": "民生证券",
+      "analyst": "方竞、李少青",
+      "rating": "推荐",
+      "rating_change": "维持",
+      "target_price": null,
+      "target_price_change": null,
+      "current_price": 65.11,
+      "reporting_period": "2025H1",
+
+      "financials": {
+        "revenue_bn": 18.39,
+        "revenue_yoy": 2.49,
+        "gross_margin_pct": 56.80,
+        "gross_margin_yoy_pct": 0.31,
+        "operating_profit_bn": null,
+        "net_profit_bn": 1.94,
+        "net_profit_yoy": -44.38,
+        "net_profit_excl_nonrecurring_bn": 1.82,
+        "net_profit_excl_nonrecurring_yoy": -40.96,
+        "operating_cash_flow_bn": null
+      },
+
+      "sub_period_financials": {
+        "period": "2Q25",
+        "revenue_bn": 9.51,
+        "revenue_yoy": 5.50,
+        "revenue_qoq": 7.09,
+        "net_profit_bn": 0.57,
+        "net_profit_yoy": -69.26,
+        "net_profit_qoq": -57.82,
+        "gross_margin_pct": null
+      },
+
+      "vs_expectation": "低于预期",
+
+      "performance_drivers": [
+        {
+          "factor": "存货跌价准备增加",
+          "direction": "负面",
+          "nature": "one_time",
+          "description": "部分产品需求下降及库龄变长，公司计提各项减值损失约1.72亿元，其中存货跌价损失1.43亿元。",
+          "quantified_impact": "存货跌价损失1.43亿元，合计减值1.72亿元"
+        },
+        {
+          "factor": "FPGA产品线收入高增",
+          "direction": "正面",
+          "nature": "recurring",
+          "description": "高可靠行业需求向好，FPGA及其他产品线收入同比增长23.15%，对公司经营起到重要支撑作用。",
+          "quantified_impact": "FPGA及其他产品线收入6.81亿元，同比+23.15%"
+        }
+      ],
+
+      "segment_breakdown": [
+        {
+          "segment": "FPGA及其他产品",
+          "revenue_bn": 6.81,
+          "yoy_pct": 23.15,
+          "yoy_qualitative": null,
+          "gross_margin_pct": null,
+          "key_observation": "高可靠行业需求向好，同比增长23.15%，是公司最大营收来源且增速最快"
+        },
+        {
+          "segment": "非挥发性存储器",
+          "revenue_bn": 4.40,
+          "yoy_pct": null,
+          "yoy_qualitative": "同比有所下滑",
+          "gross_margin_pct": null,
+          "key_observation": "唯一同比下滑的产品线，存货减值主要来源"
+        }
+      ],
+
+      "balance_sheet_highlights": {
+        "inventory_bn": null,
+        "inventory_yoy_pct": null,
+        "impairment_total_bn": 1.72,
+        "impairment_breakdown": [
+          {"item": "存货跌价损失", "amount_bn": 1.43},
+          {"item": "其他减值损失", "amount_bn": 0.29}
+        ],
+        "accounts_receivable_bn": null,
+        "cash_bn": null,
+        "other_notes": "公司正积极调整存货结构，降低部分产品存货水位，下半年有望迎来改善。"
+      },
+
+      "product_progress": [
+        {
+          "product_name": "FPAI 32TOPS异构融合芯片",
+          "status": "推广中",
+          "key_milestone": "首颗32TOPS算力FPAI芯片推广进展良好，已构建芯片设计平台及应用开发软件平台。",
+          "strategic_significance": "FPAI集CPU/FPGA/NPU于一体，面向定制化边端推理应用，是公司面向AI时代的核心新产品。"
+        },
+        {
+          "product_name": "超大规模FPGA（1xnm FinFET + 2.5D封装）",
+          "status": "客户导入",
+          "key_milestone": "正积极推进基于1xnm FinFET先进制程、2.5D先进封装的超大规模FPGA产品客户导入和量产工作。",
+          "strategic_significance": "代表公司在先进制程领域的突破，支撑高端FPGA市场竞争力。"
+        }
+      ],
+
+      "updated_earnings_forecast": {
+        "timeliness_note": "以下预测基于2025-08-29时点，使用前请确认时效性",
+        "forecasts": [
+          {"year": 2025, "revenue_bn": 41.34, "net_profit_bn": 6.41, "growth_rate_pct": 12.0, "pe": 83},
+          {"year": 2026, "revenue_bn": 52.59, "net_profit_bn": 10.77, "growth_rate_pct": 68.0, "pe": 50},
+          {"year": 2027, "revenue_bn": 64.09, "net_profit_bn": 15.05, "growth_rate_pct": 39.7, "pe": 36}
+        ]
+      },
+
+      "key_takeaway": "FPGA国产领先厂商，短期业绩承压主因为存货减值和补贴减少等非经常性因素，毛利率逆势改善，FPAI等新产品进展良好，中长期成长逻辑不变，维持推荐。",
+
+      "forward_catalysts": [
+        {
+          "catalyst": "FPAI 32TOPS芯片推广放量",
+          "timeline": "2025H2起",
+          "significance": "验证公司AI芯片商业化能力，打开新增长空间"
+        },
+        {
+          "catalyst": "存货结构调整完成、减值损失收窄",
+          "timeline": "2025H2",
+          "significance": "一次性负面因素消退后利润弹性将显现"
+        }
+      ],
+
+      "key_risks": [
+        {"risk": "下游市场波动", "description": "高可靠行业采购受政策和军费预算影响，波动可能拖累FPGA收入增速。"},
+        {"risk": "资产减值", "description": "若部分产品需求持续低迷，后续可能仍需继续计提存货跌价准备。"}
+      ]
+    },
+
+    "_variant_C_event_review": {
+      "_comment": "report_type = event_review 时的 structured 结构",
+      "company_name": "示例公司",
+      "ticker": "000000.SZ",
+      "publish_date": "2025-01-15",
+      "broker": "示例券商",
+      "analyst": "分析师姓名",
+      "rating": "推荐",
+      "rating_change": "维持",
+      "target_price": 45.00,
+      "target_price_change": "维持",
+      "current_price": 38.50,
+      "event_date": "2025-01-14",
+      "event_summary": "公司公告与XX战略客户签署3年独家供应协议，合同金额约20亿元。",
+      "event_nature": "利好",
+
+      "impact_on_thesis": {
+        "thesis_changed": "否",
+        "change_description": null
+      },
+
+      "impact_analysis": [
+        {
+          "dimension": "收入端",
+          "timeframe": "mid_term",
+          "direction": "正面",
+          "analysis": "协议锁定未来3年约20亿元收入，对应公司现有年收入规模约40%，有效提升收入确定性。客户为行业标杆，合作本身亦具有品牌背书价值，有助于开拓其他同类客户。"
+        },
+        {
+          "dimension": "竞争格局",
+          "timeframe": "long_term",
+          "direction": "正面",
+          "analysis": "独家供应条款意味着竞争对手在该客户处失去订单入口，巩固公司在细分市场的壁垒。"
+        }
+      ],
+
+      "market_expectation_gap": "市场此前已有合作预期，但独家条款和合同规模超出预期。研报认为市场对此事件的长期壁垒意义定价不足。",
+
+      "investment_suggestion": "事件进一步验证公司核心竞争力，锁定中期收入增长，维持推荐评级，建议逢低布局。",
+
+      "forward_catalysts": [
+        {
+          "catalyst": "协议首年订单落地确认",
+          "timeline": "2025Q2",
+          "significance": "验证合同实质性执行，消除市场对落地风险的疑虑"
+        }
+      ],
+
+      "key_risks": [
+        {"risk": "客户集中度风险", "description": "单一客户收入占比大幅提升，若该客户经营状况恶化将对公司业绩产生较大冲击。"}
+      ]
+    },
+
+    "_variant_D_deep_dive": {
+      "_comment": "report_type = deep_dive 时的 structured 结构",
+      "company_name": "示例公司",
+      "ticker": "000000.SZ",
+      "rating": "推荐",
+      "target_price": 80.00,
+      "current_price": 62.50,
+      "industry": "半导体",
+      "report_theme": "深度拆解公司FPGA业务在高可靠领域的国产替代逻辑及空间测算",
+
+      "investment_thesis": "国产FPGA领先厂商，高可靠领域国产替代加速，先进制程突破打开天花板，维持推荐。",
+
+      "business_segments": [
+        {
+          "name": "FPGA及其他产品",
+          "revenue_share": "约37%（2025H1）",
+          "gross_margin": "高于公司平均",
+          "key_products": ["28nm亿门级FPGA", "PSoC", "FPAI异构融合芯片"],
+          "downstream": ["军工/高可靠", "通信基础设施", "工业控制"],
+          "segment_status": "公司最大且增速最快的产品线，2025H1同比增长23.15%，国内市场份额持续提升。",
+          "industry_outlook": "高可靠FPGA国内需求持续扩张，国产替代渗透率提升空间大；先进制程FPGA全球市场由Xilinx/Intel主导，国产厂商处于追赶阶段。"
+        }
+      ],
+
+      "growth_drivers": [
+        {
+          "driver": "高可靠领域国产替代加速",
+          "logic": "军工、航天等高可靠应用对FPGA需求刚性，国产化政策导向下替代进程加速，公司作为国内技术领先厂商直接受益。",
+          "growth_estimates": [
+            {"metric": "国内FPGA市场规模（2023）", "value": "约200亿元"},
+            {"metric": "高可靠领域国产化渗透率", "value": "仍处于较低水平，替代空间大"}
+          ]
+        }
+      ],
+
+      "competitive_advantages": [
+        {
+          "advantage": "国内唯一具备28nm亿门级FPGA量产能力的厂商",
+          "description": "公司28nm制程亿门级FPGA已实现批量供应，国内竞争对手制程普遍落后，形成明显技术代差壁垒。"
+        }
+      ],
+
+      "competitive_landscape": "全球FPGA市场由AMD（Xilinx）和Intel（Altera）双寡头垄断，国内市场国产化率偏低。国内竞争者包括紫光同芯、安路科技等，但制程和产品系列完整性均弱于复旦微电。",
+
+      "comparable_companies": [
+        {
+          "name": "紫光同芯",
+          "ticker": null,
+          "pe_current_year": null,
+          "pe_next_year": null,
+          "note": "未上市，产品线偏低端，与公司在高可靠领域差距较大"
+        }
+      ],
+
+      "primary_growth_curve": {
+        "name": "28nm FPGA及PSoC（高可靠市场）",
+        "description": "公司核心收入来源，高可靠领域客户粘性强、毛利率高，随国产替代推进持续放量，是未来2-3年业绩确定性最强的增长来源。",
+        "growth_estimates": [
+          {"metric": "2025H1 FPGA产品线同比增速", "value": "+23.15%"}
+        ]
+      },
+
+      "second_growth_curve": {
+        "exists": true,
+        "name": "FPAI异构融合芯片（边端AI推理）",
+        "description": "集CPU/FPGA/NPU于一体的可重构AI芯片，布局4-128TOPS谱系化产品，首颗32TOPS已进入推广阶段，面向定制化边端场景，是公司面向AI时代的战略性新产品。",
+        "maturity": "early_stage",
+        "growth_estimates": []
+      },
+
+      "key_findings": [
+        {
+          "finding": "先进制程突破是中期最重要的估值重塑因素",
+          "evidence": "公司正推进1xnm FinFET制程+2.5D封装的超大规模FPGA，若量产成功将大幅缩短与国际巨头的代际差距，打开高端市场入场资格，对应市场空间数倍于现有产品。"
+        },
+        {
+          "finding": "短期业绩波动主要来自非经常性因素，基本面趋势未变",
+          "evidence": "2025H1归母净利润下滑44%，但综合毛利率同比+0.31pct，FPGA产品线同比+23.15%，利润下滑主因为存货减值（1.43亿）和补贴减少等一次性因素，不反映业务趋势。"
+        }
+      ],
+
+      "earnings_forecast": {
+        "pricing_assumptions": [
+          {
+            "segment": "FPGA及其他产品",
+            "pricing_mechanism": "高可靠领域客户定制化定价，溢价能力强；消费/工业端产品受市场竞争影响定价弹性较低",
+            "margin_sensitivity": "毛利率相对稳定，主要受产品结构（高可靠vs工业）和规模效应影响，原材料敏感性低于硬件制造类公司"
+          }
+        ],
+        "segment_margins": [
+          {
+            "segment": "公司整体",
+            "gross_margin_actual": "56.80%（2025H1）",
+            "gross_margin_forecast": "随高毛利FPGA占比提升，整体毛利率有望持续改善至58-60%区间"
+          }
+        ],
+        "revenue_growth_assumption": "高可靠FPGA需求持续向好，FPAI新品逐步放量，预计2025-2027年营收增速分别为15%/27%/22%。"
+      },
+
+      "valuation_methodology": {
+        "method": "PE估值",
+        "target_multiple": "50倍（基于2026E）",
+        "benchmark": "基于2026E归母净利润10.77亿元",
+        "rationale": "国产半导体龙头成长阶段给予适当溢价，参考国内可比IC设计公司估值区间，对应目标价约80元。"
+      },
+
+      "key_risks": [
+        {"risk": "先进制程研发进展不及预期", "description": "1xnm FinFET FPGA若量产时间推迟，将影响高端市场拓展节奏和估值预期。"},
+        {"risk": "下游高可靠采购波动", "description": "军工等高可靠行业采购受政策和预算影响存在周期性，可能导致FPGA收入阶段性波动。"}
+      ],
+
+      "analyst": "方竞、李少青",
+      "publish_date": "2025-08-29",
+      "broker": "民生证券"
+    }
+  }
+}
